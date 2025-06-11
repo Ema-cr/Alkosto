@@ -1,0 +1,30 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --color-primario1:#eb5b25;
+    --color-secundario:#004797;
+    --color-texto1:#ffffff;
+}
+
+header{
+    background-color: var(--color-secundario);
+    color: var(--color-texto1);
+    min-height: 11dvh;
+    padding: 0px 40px;
+    border-bottom: solid 3px;
+    border-color: var(--color-primario1);
+}
+
+.header-content{
+    max-width: 700px;
+    border: 8px solid black;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
